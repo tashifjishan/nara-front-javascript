@@ -9,5 +9,10 @@
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
+
+  <script>
+    const url = new URLSearchParams(window.location.search)
+    document.write(url.get("id"))
+  </script>
 </body>
 </html>
